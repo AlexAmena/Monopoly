@@ -15,9 +15,8 @@ import edu.ncsu.monopoly.Player;
 
 
 public class BuyHouseDialog extends JDialog {
-	private JComboBox cboMonopoly; 
-	private JComboBox cboNumber;
-
+	private JComboBox<String> cboMonopoly; 
+	private JComboBox<String> cboNumber;
 	private Player player;
 
 	public BuyHouseDialog(Player player) {
@@ -27,7 +26,7 @@ public class BuyHouseDialog extends JDialog {
 		c.add(new JLabel("Select monopoly"));
 		c.add(buildMonopolyComboBox());
 		c.add(new JLabel("Number of houses"));
-		c.add(buildNumberComboBox());
+		c.add(buildNumberComboBox());	
 		c.add(buildOKButton());
 		c.add(buildCancelButton());
 		c.doLayout();
