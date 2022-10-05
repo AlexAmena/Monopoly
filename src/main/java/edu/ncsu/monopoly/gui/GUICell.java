@@ -8,7 +8,7 @@ import javax.swing.border.BevelBorder;
 import edu.ncsu.monopoly.*;
 
 public class GUICell extends JPanel {
-
+//aaaa
 	private Cell cell;
 	private JLabel lblInfo;
 	private JLabel[] lblPlayers = new JLabel[GameMaster.MAX_PLAYER];
@@ -43,7 +43,7 @@ public class GUICell extends JPanel {
 	}
 
     private void createPlayerLabels(JPanel pnlPlayer) {
-		for (int var = 0; i < GameMaster.MAX_PLAYER; i++) {
+		for (int i = 0; i < GameMaster.MAX_PLAYER; i++) {
 			lblPlayers[i] = new JLabel();
 			lblPlayers[i].setBackground(Color.GREEN);
 			pnlPlayer.add(lblPlayers[i]);
