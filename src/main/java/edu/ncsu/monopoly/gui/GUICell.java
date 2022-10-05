@@ -49,7 +49,7 @@ public class GUICell extends JPanel {
 			pnlPlayer.add(lblPlayers[i]);
 		}
 	}
-
+//aaaa
 	public void displayInfo() {
 		lblInfo.setText(InfoFormatter.cellInfo(cell));
         this.invalidate();
